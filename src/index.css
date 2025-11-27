@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.new-component {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
