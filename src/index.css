@@ -5,20 +5,25 @@
   box-sizing: border-box;
 }
 
+
 .container {
-  height: 100vh;
+  max-width: 1172px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  row-gap: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 100vh;
 }
 
-.new-component {
-  width: 400px;
-  height: 400px;
-  background-color: red;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.ant-card {
+  width: calc(25% - 15px);
+}
+
+.ant-carousel {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
 }
