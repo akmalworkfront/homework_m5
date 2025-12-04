@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ноутбук Pro"
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук Lite"
+    },
+    {
+      "id": 3,
+      "name": "Термокружка Geeks"
+    },
+    {
+      "id": 4,
+      "name": "AirPods"
+    },
+    {
+      "id": 5,
+      "name": "MacBook M2"
+    },
+    {
+      "id": 6,
+      "name": "Худи Geeks"
+    },
+    {
+      "id": 7,
+      "name": "Футболка Geeks"
+    }
+  ],
+  "images": [
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/7.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/6.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/4.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/9.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/8.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/3.png",
+    "https://cloud-media.geekstudio.kg/geeks-online/production/products/1.png"
+  ]
+}
