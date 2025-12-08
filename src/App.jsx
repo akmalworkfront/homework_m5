@@ -1,26 +1,13 @@
-import { Cart } from "./components/Cart/Cart"
-import { Products } from "./components/Products/Products"
-
+import { Quiz } from "./components/Quiz/Quiz";
 
 function App() {
-  return (
-    <>
-      <header className="header">
-        <div className="container">
-          <a href="/" className="logo">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 40">
-              <path fill="#2C2E35" d="M26.13 1.07c0 .22-.13.31-.43.31h-.22V.76h.22c.3 0 .43.1.43.31Zm.28 0c0-.38-.25-.58-.7-.58h-.5v1.57h.27v-.4h.22l.08-.01.28.4.01.01h.36l-.36-.47c.23-.08.34-.26.34-.52Z"/>
-              <path fill="#2C2E35" d="M25.78 2.42c-.58 0-1.04-.5-1.04-1.11C24.74.7 25.2.2 25.78.2c.57 0 1.04.5 1.04 1.11 0 .61-.47 1.11-1.04 1.11Zm0-2.41c-.67 0-1.22.58-1.22 1.3 0 .72.55 1.3 1.22 1.3.67 0 1.22-.58 1.22-1.3 0-.72-.55-1.3-1.22-1.3Zm-4.91 16.54L23.18 0H3.46L0 24.82h4.94l-.7 5.12H9.2l-5.47 3.62-.9 6.44h19.73l3.24-23.45h-4.94Z"/>
-              <path fill="#FFE743" d="m10.26 10.18-.33 2.42h1.84a2.93 2.93 0 0 1-2.4 1.43c-1.37 0-2.33-1.21-2.13-2.68.22-1.48 1.5-2.68 2.88-2.69.12 0 .23.01.35.04l.4-2.95h-.36A5.88 5.88 0 0 0 6.6 7.38a6.7 6.7 0 0 0-2.08 3.96c-.43 3.08 1.56 5.6 4.43 5.6h.02a5.88 5.88 0 0 0 3.92-1.64 6.71 6.71 0 0 0 2.14-4.74l-.02-.39h-4.75Z"/>
-            </svg>
 
-          </a>
-          <Cart/>
-        </div>
-      </header>
-      <Products/>    
-    </>
+  return (
+    <div className="container">
+
+      <Quiz />
+
+    </div>
   )
 }
 
