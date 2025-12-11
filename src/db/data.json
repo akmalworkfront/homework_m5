@@ -1,26 +1,11 @@
-[
-  {
-    "id": 1,
-    "question": "Вопрос 1?",
-    "answers": ["Ответ A", "Ответ B", "Ответ C", "Ответ D"],
-    "correctAnswer": 2
-  },
-  {
-    "id": 2,
-    "question": "Вопрос 2?",
-    "answers": ["Ответ A", "Ответ B", "Ответ C", "Ответ D"],
-    "correctAnswer": 0
-  },
-  {
-    "id": 3,
-    "question": "Вопрос 3?",
-    "answers": ["Ответ A", "Ответ B", "Ответ C", "Ответ D"],
-    "correctAnswer": 3
-  },
-  {
-    "id": 4,
-    "question": "Вопрос 4?",
-    "answers": ["Ответ A", "Ответ B", "Ответ C", "Ответ D"],
-    "correctAnswer": 1
-  }
-]
+{
+
+  "London": { "temp": 15, "description": "Cloudy", "icon": "☁" },
+
+  "Paris": { "temp": 18, "description": "Sunny", "icon": "☀" },
+
+  "Tokyo": { "temp": 22, "description": "Rainy", "icon": "🌧" },
+
+  "Toronto": { "temp": 10, "description": "Snowy", "icon": "❄" }
+
+}

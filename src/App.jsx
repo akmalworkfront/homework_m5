@@ -1,12 +1,12 @@
-import { Quiz } from "./components/Quiz/Quiz";
+import { SearchField } from "./components/SearchField"
 
 function App() {
 
   return (
     <div className="container">
 
-      <Quiz />
-
+      <SearchField/>
+     
     </div>
   )
 }
